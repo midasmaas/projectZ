@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header, footer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.koppen {
+    font-family: "Lovelo Black";
+    color: #D6609E;
+    font-size: 7vw;
+    text-align: center;
+    margin-top: -52vw;
+    margin-left: 2vw;
+}
+
+.onderkop{
+    font-family: "Lovelo Black", serif;
+    color: #EDC424;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: -1vw;
+    margin-left: 13vw;
+}
+
+.onder-onderkop{
+    font-family: "Brandon Grotesque Thin", serif;
+    color: #000000;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: -vw;
+    margin-left: 5vw;
+}
+.animation{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.midas-icoon{
+    width: 17%;
+    top: 5%;
+    left: 60%;
+    position: absolute;
+}
+
+.boekje-icoon{
+    width: 17%;
+    top: 55%;
+    left: 45%;
+    position: absolute;
+}
+
+.laptop-icoon{
+    width: 17%;
+    top: 46%;
+    left: 75%;
+    position: absolute;
+}
+
+.homescreen-wrapper{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+.logo{
+    width: 35vw;
+    justify-content: left;
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+
+.achtergrondElement{
+    width: 100vw;
+    margin-top: -12vw;
+    margin-left: 3vw;
+}
+
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -17vw;
+    max-width: 60%;
+}
+
+.card{
+    width: 17rem;
+    height: 15rem;
+    background-color: #fff;
+    border: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 3rem;
+    box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
+}
+
+.card .knop {
+    padding: .2rem 1.6rem;
+    background-color: #CDA3BE;
+    font-size: 1.5rem;
+    font-family: "Lovelo Black";
+    color: white;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+.card .knop:hover{
+    transform: translateY(-2px);
+    box-shadow: .5rem .5rem 2rem rgba(0,0,0,.2);
+    text-decoration: none;
+
+}
+
+.card .knop:active{
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.kaart-omschrijving{
+    font-size: 1.2rem;
+    font-family: "Brandon Grotesque Light";
+    margin: 1.5rem 2.2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
